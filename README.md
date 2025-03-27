@@ -1,7 +1,7 @@
-# Flappy Bird - Java Implementation
+# Flappy Bird Inspired Game - Java Implementation
 
 ## Overview
-This is a 2D Flappy Bird game implemented in Java using Swing for rendering and AWT for event handling. The game features a bird that moves through pipes, avoiding collisions while scoring points.
+This is a 2D inspired Flappy Bird game implemented in Java using Swing for rendering and AWT for event handling. The game features a bird that moves through pipes, avoiding collisions while scoring points.
 
 ## Game Mechanics
 
