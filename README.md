@@ -1,8 +1,37 @@
-This implementation of this 2D game in Java uses Swing for rendering the game and AWT for event handling. 
-Bird Class:
-The bird is represented by an object with properties like position (x, y), size (width, height), and an image. The bird is controlled using the spacebar to make it "flap" and move upward (change in velocityY).
-Pipe Class:
-Pipes are represented by objects with properties like position, size, and an image. Pipes are created at regular intervals using a Timer and have an opening between them to allow the bird to pass through.
-The logic of the game is based on placePipesTimer which adds new pipes at intervals by calling the placePipes method, gameLoop controlls the movement of the bird and pipes and check for collisons. The bird's velocity is affected by gravity, and if it hits a pipe or the ground, the game ends. The paintComponent method renders the background, bird, pipes, and score. The score is updated as the bird passes through pipes, and the game displays "Game Over" if the bird collides with any pipe or falls out of the screen.
-This structure allows the bird to move freely, pipes to spawn and move across the screen, and collision detection for gameplay functionality.
-Through this application, I improved my understanding of Java's Swing framework by implementing graphics rendering and user input handling. I enhanced my problem-solving skills by managing game logic, collision detection, and dynamic object movement. Additionally, I gained experience in real-time event-driven programming using timers and animations.
+# Flappy Bird - Java Implementation
+
+## Overview
+This is a 2D Flappy Bird game implemented in Java using Swing for rendering and AWT for event handling. The game features a bird that moves through pipes, avoiding collisions while scoring points.
+
+## Game Mechanics
+
+### Bird Class:
+- The bird is represented as an object with properties like position `(x, y)`, size `(width, height)`, and an image.
+- It is controlled using the `spacebar` to "flap" and move upward (modifying `velocityY`).
+
+### Pipe Class:
+- Pipes are created as objects with properties such as position, size, and an image.
+- They spawn at regular intervals using a `Timer` and have an opening for the bird to pass through.
+
+### Game Logic:
+- `placePipesTimer` adds new pipes at intervals by calling the `placePipes` method.
+- `gameLoop` controls bird and pipe movement and checks for collisions.
+- The bird's velocity is affected by gravity, and if it hits a pipe or the ground, the game ends.
+
+### Graphics Rendering:
+- The `paintComponent` method renders the background, bird, pipes, and score.
+- The score updates as the bird successfully passes through pipes.
+- If the bird collides with a pipe or falls out of the screen, "Game Over" is displayed.
+
+## Learning Outcomes
+Through this project, I improved my understanding of:
+- **Java Swing Framework**: Implementing graphics rendering and user input handling.
+- **Game Logic and Physics**: Managing movement, collision detection, and dynamic object behavior.
+- **Event-Driven Programming**: Using timers and animations for real-time updates.
+
+## How to Run
+1. Compile the Java file using `javac FlappyBird.java`.
+2. Run the program with `java FlappyBird`.
+3. Press `SPACEBAR` to make the bird flap and navigate through the pipes.
+
+Enjoy playing! 🚀
