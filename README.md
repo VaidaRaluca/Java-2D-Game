@@ -1,4 +1,4 @@
-This implementation of the Flappy Bird game in Java uses Swing for rendering the game and AWT for event handling. 
+This implementation of this 2D game in Java uses Swing for rendering the game and AWT for event handling. 
 Bird Class:
 The bird is represented by an object with properties like position (x, y), size (width, height), and an image. The bird is controlled using the spacebar to make it "flap" and move upward (change in velocityY).
 Pipe Class:
