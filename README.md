@@ -35,3 +35,5 @@ Through this project, I improved my understanding of:
 3. Press `SPACEBAR` to make the bird flap and navigate through the pipes.
 
 Enjoy playing! 🚀
+
+This application was made following a tutorial :  https://youtu.be/Xw2MEG-FBsE?si=rbeyfV-kyQHSapOd
