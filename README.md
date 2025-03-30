@@ -23,6 +23,8 @@ This is a 2D inspired Flappy Bird game implemented in Java using Swing for rende
 - The score updates as the bird successfully passes through pipes.
 - If the bird collides with a pipe or falls out of the screen, "Game Over" is displayed.
 
+![Game Image](FlappyBird/game.png)
+
 ## Learning Outcomes
 Through this project, I improved my understanding of:
 - **Java Swing Framework**: Implementing graphics rendering and user input handling.
